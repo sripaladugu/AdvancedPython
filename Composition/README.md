@@ -230,8 +230,6 @@ class Contract(ABC):
     def get_payment(self) -> float:
         """Compute how much to pay an employee under this contract."""
 
-
-@dataclass
 class Commission(ABC):
     """Represents a commission payment process."""
 
